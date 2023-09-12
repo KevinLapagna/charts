@@ -3,7 +3,29 @@ entries:
   ignition:
   - apiVersion: v2
     appVersion: 8.1.31
-    created: "2023-09-04T13:14:13.657181493+02:00"
+    created: "2023-09-12T16:11:50.862617079+02:00"
+    description: Ignition is an Integrated Software Platform for SCADA systems released
+      by Inductive Automation
+    digest: 5936bbbf9d9caf3b7641dd050654352cc06cd803458dd7fac689ddc5f7d8613b
+    home: https://docs.inductiveautomation.com/display/DOC80
+    icon: data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4ODAgMTA4MCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmNzkwMWU7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTg3My40LDYxLjIycS0xMy44MS0zMC42Ni00My42MS00Ny41N1Q3NjYuNjMuNzdxLTMzLjQsMy44OC01Ny4zOCw0Ni4zNGMtMyw1LjE5LTEwLjY0LDIxLjItMjMsNDguMDhTNjU4LDE1Niw2MzguODMsMTk3cy00MC43NCw4Ny4yLTY0Ljg5LDEzOC40OS00OS4yNiwxMDUuMjYtNzUuMDUsMTYxLjgxUzQ0Ni45NCw2MTEsNDIwLjU0LDY2OC42N3EtMzguODEsODQuODMtNzMuNzksMTYwLjg5QTE1Ny41MiwxNTcuNTIsMCwwLDEsMzc4LjQ3LDg0OHE3MS43OS0xMDUuMjQsMTUzLjQ3LTIyNCw4Mi41OS0xMjAuMjUsMTUzLjQ4LTIyNS4zVDgwNi4xNywyMjAuMjFxNDkuODktNzMuMzYsNTYuOTQtODZDODc5LjE4LDEwNS45NCw4ODIuNjMsODEuNjcsODczLjQsNjEuMjJaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjE0LDgzMXEtMjIuNjUtOTAuNDUtMzYuOTMtMTQ1LjY0LTE0LjUyLTU1Ljc2LTI0LTg4LjN0LTE0Ljg4LTQ3LjZjLTMuNjgtMTAuMTEtNy4yMS0xOC43Ni0xMC42Mi0yNS44NXEtMTIuMTgtMjUuNS0zNS44OC0zMy4zMnQtNTAuNjMsNS4xYy0xOCw4LjU3LTI5LjkxLDIwLjY4LTM1Ljc2LDM2LjIxUy41Miw1NjMuNDQsOC41NSw1ODAuNDVRMTMuNyw1OTEuMDgsMjIsNjA0LjkyYzUuNTYsOS4xOSwxNC43NywyMy4xLDI3LjczLDQxLjU4czMwLjc3LDQzLjE0LDUzLjU5LDc0UzE1Ni41Myw3OTEuNzYsMTk0LjQ3LDg0MkExNjMuNjcsMTYzLjY3LDAsMCwxLDIxNCw4MzFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDU4LjU1LDEwMzYuMzlhMzIuNTcsMzIuNTcsMCwxLDEsMzIuNTgsMzIuMzlBMzIuMywzMi4zLDAsMCwxLDQ1OC41NSwxMDM2LjM5Wm02MC4xOCwwYTI3LjU5LDI3LjU5LDAsMSwwLTI3LjYsMjcuNDJBMjcuNjksMjcuNjksMCwwLDAsNTE4LjczLDEwMzYuMzlabS0xMi4xNCwxNy41NGgtNmwtMTAuNjQtMTYuMzdINDg0djE2LjM3aC01di0zNS40OWgxNS41YzYuNCwwLDEyLjYsMS43NCwxMi42LDkuMzcsMCw3LTQuODYsOS41Ny0xMS4xOSw5Ljc1Wm0tMTYuNjYtMjEuMzhjNC40NCwwLDEyLjE4Ljg2LDEyLjE4LTQuODEsMC0zLjY2LTQuODYtNC4zMS04LjY3LTQuMzFINDg0djkuMTJaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMzgyLDk3OS43OUExMDAuMiwxMDAuMiwwLDEsMSwyODEuOCw4NzkuNTksMTAwLjIxLDEwMC4yMSwwLDAsMSwzODIsOTc5Ljc5WiIvPjwvc3ZnPg==
+    keywords:
+    - ignition
+    - scada
+    maintainers:
+    - email: klapagna@redhat.com
+      name: Kevin Lapagna
+    name: ignition
+    sources:
+    - https://github.com/KevinLapagna/ignition-openshift
+    - https://docs.inductiveautomation.com/display/DOC81/Docker+Image
+    type: application
+    urls:
+    - ignition-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 8.1.31
+    created: "2023-09-12T16:11:50.862084913+02:00"
     description: Ignition is an Integrated Software Platform for SCADA systems released
       by Inductive Automation
     digest: 47da55533f687c1e50212bcb3774e5846db5088fbb34d76ec0191e87a9a530c8
@@ -25,7 +47,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 8.1.30
-    created: "2023-09-04T13:14:13.656685088+02:00"
+    created: "2023-09-12T16:11:50.861585716+02:00"
     description: Ignition is an Integrated Software Platform for SCADA systems released
       by Inductive Automation
     digest: 23db1ec7b555c0a1baa956e17ad0b0c0a083ee99d0673ae3cd00d432d2f645e5
@@ -45,4 +67,4 @@ entries:
     urls:
     - ignition-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-04T13:14:13.656074053+02:00"
+generated: "2023-09-12T16:11:50.860753215+02:00"

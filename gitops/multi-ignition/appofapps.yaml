@@ -1,0 +1,59 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ignition-11
+  namespace: openshift-gitops
+spec:
+  destination:
+    name: in-cluster
+    namespace: ignition
+  project: default
+  source:
+    chart: ignition
+    helm:
+      parameters:
+        - name: requestCpu
+          value: 10m
+        - name: ignitionStorage
+          value: 10G
+        - name: timeZone
+          value: Europe/Zurich
+    repoURL: 'https://kevinlapagna.github.io/charts'
+    targetRevision: 0.1.3
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ignition-12
+  namespace: openshift-gitops
+spec:
+  destination:
+    name: in-cluster
+    namespace: ignition
+  project: default
+  source:
+    chart: ignition
+    helm:
+      parameters:
+        - name: requestCpu
+          value: 10m
+        - name: ignitionStorage
+          value: 10G
+        - name: timeZone
+          value: Europe/Zurich
+    repoURL: 'https://kevinlapagna.github.io/charts'
+    targetRevision: 0.1.3
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - PruneLast=true

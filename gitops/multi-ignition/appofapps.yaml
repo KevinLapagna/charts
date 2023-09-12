@@ -18,7 +18,7 @@ spec:
           value: 10G
         - name: timeZone
           value: Europe/Zurich
-    repoURL: 'https://kevinlapagna.github.io/charts'
+    repoURL: 'https://kevinlapagna.github.io/charts/helm-repo'
     targetRevision: 0.1.3
   syncPolicy:
     automated:
@@ -48,7 +48,7 @@ spec:
           value: 10G
         - name: timeZone
           value: Europe/Zurich
-    repoURL: 'https://kevinlapagna.github.io/charts'
+    repoURL: 'https://kevinlapagna.github.io/charts/helm-repo'
     targetRevision: 0.1.3
   syncPolicy:
     automated:

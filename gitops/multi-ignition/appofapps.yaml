@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ignition-11
+  name: ignition-01-master
   namespace: openshift-gitops
 spec:
   destination:
@@ -19,7 +19,7 @@ spec:
         - name: timeZone
           value: Europe/Zurich
     repoURL: 'https://kevinlapagna.github.io/charts/helm-repo'
-    targetRevision: 0.1.3
+    targetRevision: 0.1.4
   syncPolicy:
     automated:
       prune: true
@@ -31,7 +31,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ignition-12
+  name: ignition-01-backup
   namespace: openshift-gitops
 spec:
   destination:
@@ -49,7 +49,7 @@ spec:
         - name: timeZone
           value: Europe/Zurich
     repoURL: 'https://kevinlapagna.github.io/charts/helm-repo'
-    targetRevision: 0.1.3
+    targetRevision: 0.1.4
   syncPolicy:
     automated:
       prune: true
